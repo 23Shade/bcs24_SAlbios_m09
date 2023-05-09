@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon Battle!</title>
+    <link href="https://fonts.googleapis.com/css?family=Glober" rel="stylesheet">
+    <style>
+        body {
+            background-color: #ffd700;
+            font-family: 'Glober', sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 3rem;
+            color: #f08030;
+            text-shadow: 2px 2px 2px #333;
+            margin-bottom: 2rem;
+        }
+        button {
+            padding: 1rem 2rem;
+            font-size: 1.5rem;
+            background-color: #f08030; 
+            color: #fff;
+            border: none;
+            border-radius: 1rem;
+            box-shadow: 2px 2px 2px #333;
+            cursor: pointer;
+            transition: transform 0.2s ease-in-out;
+        }
+        button:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Pokemon Battle!</h1>
+        <button id="tackle-button">Tackle!</button>
+    </div>
+    <script src ="./script.js"></script>
+</body>
+</html>
